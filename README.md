@@ -1,0 +1,1 @@
+il y a ci joint une liste de projet de niveau intermediaire concernant le java-script,
