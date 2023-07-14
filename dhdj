@@ -1,0 +1,239 @@
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        CalorieCount/
+        PS5-XBOX/
+        README.md
+        Rick/
+        SoundTrack/
+        drag-n-drop/
+        extensionCarte/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git add .
+warning: in the working copy of 'Rick/rick-main/README.md', LF will be replaced by CRLF the ne
+xt time Git touches it
+warning: in the working copy of 'SoundTrack/particules.js', LF will be replaced by CRLF the ne
+xt time Git touches it
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   CalorieCount/app.js
+        new file:   CalorieCount/index.html
+        new file:   CalorieCount/style.css
+        new file:   PS5-XBOX/app.js
+        new file:   PS5-XBOX/index.html
+        new file:   PS5-XBOX/ps.jpg
+        new file:   PS5-XBOX/style.css
+        new file:   PS5-XBOX/xbox.jpg
+        new file:   README.md
+        new file:   Rick/Rick_and_Morty_logo.png
+        new file:   Rick/index.html
+        new file:   Rick/index.js
+        new file:   Rick/rick-main/README.md
+        new file:   Rick/rick_font/Calligraphr-Regular.ttf
+        new file:   Rick/rick_font/_adult_swim_font__by_esteveztheart-dbj9by8.ttf
+        new file:   Rick/rick_font/rick_and_morty_by_shittychan-d9h2vl6.ttf
+        new file:   Rick/rick_font/schw.ttf
+        new file:   Rick/rick_pics/morty.png
+        new file:   Rick/rick_pics/rick.png
+        new file:   Rick/rick_pics/ricky.png
+        new file:   Rick/style.css
+        new file:   SoundTrack/alba/ALBAM___.TTF
+        new file:   SoundTrack/alba/ALBAS___.TTF
+        new file:   SoundTrack/alba/alba.TTF
+        new file:   SoundTrack/alba/read_me.pdf
+        new file:   SoundTrack/app.js
+        new file:   SoundTrack/img/adel.jpg
+        new file:   SoundTrack/img/bob-marley.jpg
+        new file:   SoundTrack/img/booba.jpg
+        new file:   SoundTrack/img/diana-ross.jpg
+        new file:   SoundTrack/img/plk.jpg
+        new file:   SoundTrack/img/youssoupha.jpg
+        new file:   SoundTrack/index.html
+        new file:   SoundTrack/particules.js
+        new file:   SoundTrack/sound/adele.mp3
+        new file:   SoundTrack/sound/bob-marley.mp3
+        new file:   SoundTrack/sound/booba.mp3
+        new file:   SoundTrack/sound/diana-ross.mp3
+        new file:   SoundTrack/sound/plk.mp3
+        new file:   SoundTrack/sound/youssoupha.mp3
+        new file:   SoundTrack/style.css
+        new file:   drag-n-drop/app.js
+        new file:   drag-n-drop/index.html
+        new file:   drag-n-drop/style.css
+        new file:   extensionCarte/app.js
+        new file:   extensionCarte/index.html
+        new file:   extensionCarte/style.css
+
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git commit -m "il y a là tout les projet qui concerne les bases en JS"
+[master (root-commit) 45e3fc0] il y a là tout les projet qui concerne les bases en JS
+ 47 files changed, 1325 insertions(+)
+ create mode 100644 CalorieCount/app.js
+ create mode 100644 CalorieCount/index.html
+ create mode 100644 CalorieCount/style.css
+ create mode 100644 PS5-XBOX/app.js
+ create mode 100644 PS5-XBOX/index.html
+ create mode 100644 PS5-XBOX/ps.jpg
+ create mode 100644 PS5-XBOX/style.css
+ create mode 100644 PS5-XBOX/xbox.jpg
+ create mode 100644 README.md
+ create mode 100644 Rick/Rick_and_Morty_logo.png
+ create mode 100644 Rick/index.html
+ create mode 100644 Rick/index.js
+ create mode 100644 Rick/rick-main/README.md
+ create mode 100644 Rick/rick_font/Calligraphr-Regular.ttf
+ create mode 100644 Rick/rick_font/_adult_swim_font__by_esteveztheart-dbj9by8.ttf
+ create mode 100644 Rick/rick_font/rick_and_morty_by_shittychan-d9h2vl6.ttf
+ create mode 100644 Rick/rick_font/schw.ttf
+ create mode 100644 Rick/rick_pics/morty.png
+ create mode 100644 Rick/rick_pics/rick.png
+ create mode 100644 Rick/rick_pics/ricky.png
+ create mode 100644 Rick/style.css
+ create mode 100644 SoundTrack/alba/ALBAM___.TTF
+ create mode 100644 SoundTrack/alba/ALBAS___.TTF
+ create mode 100644 SoundTrack/alba/alba.TTF
+ create mode 100644 SoundTrack/alba/read_me.pdf
+ create mode 100644 SoundTrack/app.js
+ create mode 100644 SoundTrack/img/adel.jpg
+ create mode 100644 SoundTrack/img/bob-marley.jpg
+ create mode 100644 SoundTrack/img/booba.jpg
+ create mode 100644 SoundTrack/img/diana-ross.jpg
+ create mode 100644 SoundTrack/img/plk.jpg
+ create mode 100644 SoundTrack/img/youssoupha.jpg
+ create mode 100644 SoundTrack/index.html
+ create mode 100644 SoundTrack/particules.js
+ create mode 100644 SoundTrack/sound/adele.mp3
+ create mode 100644 SoundTrack/sound/bob-marley.mp3
+ create mode 100644 SoundTrack/sound/booba.mp3
+ create mode 100644 SoundTrack/sound/diana-ross.mp3
+ create mode 100644 SoundTrack/sound/plk.mp3
+ create mode 100644 SoundTrack/sound/youssoupha.mp3
+ create mode 100644 SoundTrack/style.css
+ create mode 100644 drag-n-drop/app.js
+ create mode 100644 drag-n-drop/index.html
+ create mode 100644 drag-n-drop/style.css
+ create mode 100644 extensionCarte/app.js
+ create mode 100644 extensionCarte/index.html
+ create mode 100644 extensionCarte/style.css
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git remote add origin https://github.com/Youss934/G-projet-JS
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git push --set-upstream origin master
+Enumerating objects: 61, done.
+Counting objects: 100% (61/61), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (59/59), done.
+Writing objects: 100% (61/61), 31.71 MiB | 533.00 KiB/s, done.
+Total 61 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Youss934/G-projet-JS
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git clone https://github.com/Youss934/pokedex.git
+Cloning into 'pokedex'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ ls pokedex
+README.md
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        pokedex/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git add .
+warning: adding embedded git repository: pokedex
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> pokedex
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached pokedex
+hint:
+hint: See "git help submodule" for more information.
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   pokedex
+
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git commit -m "on a là un projet sympas avec un pokedex utilisant une api afin de repertorié tout les pekemon"
+[master d069fa8] on a là un projet sympas avec un pokedex utilisant une api afin de repertorié
+ tout les pekemon
+ 1 file changed, 1 insertion(+)
+ create mode 160000 pokedex
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 319 bytes | 319.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Youss934/G-projet-JS
+   45e3fc0..d069fa8  master -> master
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ ^[[200~$ cd /c/Users/Admin/Desktop/test123/liste-projet/G-projet-JS
+bash: $'\E[200~$': command not found
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$ cd/c//c/Users/Admin/Desktop/test123/liste-projet/CalorieCount
+bash: cd/c//c/Users/Admin/Desktop/test123/liste-projet/CalorieCount: No such file or directory
+
+Admin@shado MINGW64 ~/Desktop/test123/liste-projet/G-projet-JS (master)
+$
